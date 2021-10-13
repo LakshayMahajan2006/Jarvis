@@ -26,6 +26,11 @@ def speak(audio):
 # This will wish according to the time like afternoon, morning , evening.
 def wishMe():
     hour = int(datetime.datetime.now().hour) 
+    speak("Welcome back sir")
+    speak("The current time is")
+    time()
+    speak("The current date is")
+    date()
 
     if (hour>=0 and hour<12):
         speak('good morning')
